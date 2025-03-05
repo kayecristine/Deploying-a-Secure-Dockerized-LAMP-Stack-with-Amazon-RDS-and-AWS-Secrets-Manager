@@ -75,6 +75,8 @@ services:
       - "8081:80"
     environment:
       PMA_HOST: "${DB_HOST}"
+      PMA_PORT: "3306"
+      PMA_ARBITRARY: "1"
       PMA_USER: "${DB_USER}"
       PMA_PASSWORD: "${DB_PASSWORD}"
     networks:
@@ -82,6 +84,7 @@ services:
 
 networks:
   lamp_network:
+
 ```
 
 ## Step 4: Fetch Secrets from AWS Secrets Manager
