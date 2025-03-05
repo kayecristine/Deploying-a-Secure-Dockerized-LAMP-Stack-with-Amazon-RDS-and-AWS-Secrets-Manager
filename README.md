@@ -77,8 +77,6 @@ services:
       PMA_HOST: "${DB_HOST}"
       PMA_PORT: "3306"
       PMA_ARBITRARY: "1"
-      PMA_USER: "${DB_USER}"
-      PMA_PASSWORD: "${DB_PASSWORD}"
     networks:
       - lamp_network
 
