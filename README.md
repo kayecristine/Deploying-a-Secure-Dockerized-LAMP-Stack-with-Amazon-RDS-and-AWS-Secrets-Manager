@@ -110,8 +110,8 @@ Run the following command to start the updated stack:
 docker-compose up -d --build
 ```
 ## Step 6: Test the Setup
-* Open http://localhost:8080 in your browser to check if the PHP application is working.
-* Open http://localhost:8081 for phpMyAdmin and log in with:
+Open http://localhost:8080 in your browser to check if the PHP application is working.
+Open http://localhost:8081 for phpMyAdmin and log in with:
 *   Host: The RDS endpoint
 *  Username: admin
 *   Password: The stored password
